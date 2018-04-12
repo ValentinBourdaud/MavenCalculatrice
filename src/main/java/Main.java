@@ -1,5 +1,7 @@
 import java.util.Scanner;
 
+
+
 public class Main {
 
 	public static void main(String[] args) {
@@ -40,8 +42,8 @@ public class Main {
 		nb1 = scnb1.nextDouble();
 		System.out.println("Veuillez saisir le deuxième nombre : ");
 		nb2 = scnb2.nextDouble();
-		resultat = nb1+nb2;
-		System.out.println("Le résultat est : " + calculatrice1.additionner);
+		resultat = Calculatrice.additionner(nb1,nb2);
+		System.out.println("Le résultat est : " + resultat);
 		break;
 	
 		//Si 2, alors on demande la soustraction
@@ -51,7 +53,7 @@ public class Main {
 		nb1 = scnb1.nextDouble();
 		System.out.println("Veuillez saisir le deuxième nombre : ");
 		nb2 = scnb2.nextDouble();
-		resultat = nb1-nb2;
+		resultat = Calculatrice.soustraire(nb1, nb2);
 		System.out.println("Le résultat est : " + resultat);
 		break;
 		
@@ -63,7 +65,7 @@ public class Main {
 		nb1 = scnb1.nextDouble();
 		System.out.println("Veuillez saisir le deuxième nombre : ");
 		nb2 = scnb2.nextDouble();
-		resultat = nb1*nb2;
+		resultat = Calculatrice.multiplier(nb1, nb2);
 		System.out.println("Le résultat est : " + resultat);
 		break;
 				
@@ -75,7 +77,7 @@ public class Main {
 		nb1 = scnb1.nextDouble();
 		System.out.println("Veuillez saisir le deuxième nombre : ");
 		nb2 = scnb2.nextDouble();
-		resultat = nb1/nb2;
+		resultat = Calculatrice.multiplier(nb1, nb2);
 		System.out.println("Le résultat est : " + resultat);
 		break;
 		

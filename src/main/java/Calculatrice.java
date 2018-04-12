@@ -8,16 +8,16 @@ public class Calculatrice {
 	
 	Calculatrice calculatrice1 = new Calculatrice();
 	
-	double additionner (double a, double b) {
+	public static double additionner (double a, double b) {
 		return a+b;
 	}
-	double soustraire (double a, double b) {
+	public static double soustraire (double a, double b) {
 		return a-b;
 	}
-	double multiplier (double a, double b) {
+	public static double multiplier (double a, double b) {
 		return a*b;
 	}
-	double diviser (double a, double b) {
+	public static double diviser (double a, double b) {
 		return a/b;
 	}
 	
