@@ -77,7 +77,7 @@ public class Main {
 		nb1 = scnb1.nextDouble();
 		System.out.println("Veuillez saisir le deuxième nombre : ");
 		nb2 = scnb2.nextDouble();
-		resultat = Calculatrice.multiplier(nb1, nb2);
+		resultat = Calculatrice.diviser(nb1, nb2);
 		System.out.println("Le résultat est : " + resultat);
 		break;
 		
